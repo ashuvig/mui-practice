@@ -14,15 +14,15 @@ const items = [
   {
     id: "green",
     icon: <AiFillAndroid />,
-    count: "714k",
-    title: "Weekly Sales",
+    count: "99%",
+    title: "Uptime",
   },
-  { id: "blue", icon: <AiFillApple />, count: "1.35m", title: "New Users" },
+  { id: "blue", icon: <AiFillApple />, count: "170", title: "Total No. Of APIs" },
   {
     id: "yellow",
     icon: <AiFillWindows />,
-    count: "1.72m",
-    title: "Item Orders",
+    count: "45%",
+    title: "CPU Usage",
   },
   { id: "maroon", icon: <AiFillBug />, count: "234", title: "Bug Reports" },
 ];

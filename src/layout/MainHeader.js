@@ -9,8 +9,8 @@ import { RiMenu3Line } from "react-icons/ri";
 import { BiSearch } from "react-icons/bi";
 
 // components
-import LanguageSelector from "../components/MainHeader/SelectLanguage";
-import Notifications from "../components/MainHeader/Notifications";
+//import LanguageSelector from "../components/MainHeader/SelectLanguage";
+//import Notifications from "../components/MainHeader/Notifications";
 import UserMenu from "../components/MainHeader/UserMenu";
 
 const AppBarStyle = styled(AppBar)(({ theme }) => ({
@@ -44,17 +44,17 @@ const ToggleButtonStyle = styled(IconButton)(({ theme }) => ({
 }));
 
 const MainHeader = (props) => {
-  const [showLang, setShowLang] = useState(null);
-  const [showNotification, setShowNotification] = useState(null);
+  //const [showLang, setShowLang] = useState(null);
+  //const [showNotification, setShowNotification] = useState(null);
   const [showUserMenu, setShowUserMenu] = useState(null);
 
   // open and close lang menu
-  const handleOpenLang = (e) => setShowLang(e.currentTarget);
-  const handleCloseLang = () => setShowLang(null);
+  //const handleOpenLang = (e) => setShowLang(e.currentTarget);
+  //const handleCloseLang = () => setShowLang(null);
 
   // notifications
-  const handleOpenNotification = (e) => setShowNotification(e.currentTarget);
-  const handleCloseNotification = () => setShowNotification(null);
+  //const handleOpenNotification = (e) => setShowNotification(e.currentTarget);
+  //const handleCloseNotification = () => setShowNotification(null);
 
   // User Menu
   const handleOpenUserMenu = (e) => setShowUserMenu(e.currentTarget);
@@ -74,26 +74,25 @@ const MainHeader = (props) => {
             <RiMenu3Line />
           </ToggleButtonStyle>
 
-          <IconButton aria-label="search">
-            <BiSearch fontSize="small" />
-          </IconButton>
+          
         </ContainerStyle>
 
         {/* Right side's items */}
         <ContainerStyle>
           {/* Language selector */}
+          {/*
           <LanguageSelector
             anchorEl={showLang}
             onOpen={handleOpenLang}
             onClose={handleCloseLang}
-          />
+          />*/}
 
           {/* Notification */}
-          <Notifications
+          {/*<Notifications
             anchorEl={showNotification}
-            onOpen={handleOpenNotification}
-            onClose={handleCloseNotification}
-          />
+           onOpen={handleOpenNotification}
+           onClose={handleCloseNotification}
+          />*/}
 
           {/* User Avatar */}
           <UserMenu

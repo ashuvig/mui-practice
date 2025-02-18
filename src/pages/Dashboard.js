@@ -21,11 +21,11 @@ const Dashboard = () => {
   return (
     <>
       <Helmet>
-        <title>Dashboard | MUI Dash</title>
+        <title>Dashboard | Open API Spec</title>
       </Helmet>
 
       <Typography variant="h6" component="h2">
-        Hi, Welcome in MUI Dash.
+        Hi, Welcome in API Dedveloper Portal.
       </Typography>
 
       {/* Info Cards */}
@@ -37,40 +37,13 @@ const Dashboard = () => {
           <ChartSiteVisits />
         </Grid>
 
-        {/* Current Visits */}
-        <Grid item xs={12} md={6} lg={4}>
-          <CurrentVisits />
-        </Grid>
-
-        {/* Conversion Rates */}
-        <Grid item xs={12} md={6} lg={8}>
-          <ConversionRate />
-        </Grid>
-
-        {/* Current Subject */}
-        <Grid item xs={12} md={6} lg={4}>
-          <ChartCurrentSubject />
-        </Grid>
-
-        {/* News Update */}
-        <Grid item xs={12} md={6} lg={8}>
-          <NewsUpdate />
-        </Grid>
-
-        {/* Order Timeline */}
-        <Grid item xs={12} md={6} lg={4}>
-          <OrderTimeline />
-        </Grid>
-
+        
         {/* Traffic by Site */}
         <Grid item xs={12} md={6} lg={4}>
           <SocialTraffic />
         </Grid>
 
-        {/* Traffic by Site */}
-        <Grid item xs={12} md={6} lg={8}>
-          <Tasks />
-        </Grid>
+    
       </GridContainerStyle>
     </>
   );

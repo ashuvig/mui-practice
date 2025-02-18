@@ -104,18 +104,8 @@ const links = [
     icon: <ImPieChart />,
     title: "Dashboard",
   },
-  { id: "L1", path: "/user", icon: <FaUserFriends />, title: "User" },
-  {
-    id: "L2",
-    path: "/product",
-    icon: <RiShoppingBag3Fill />,
-    title: "Product",
-  },
-  { id: "L3", path: "/blog", icon: <RiClipboardFill />, title: "Blog" },
-  { id: "L4", path: "/login", icon: <RiLoginCircleFill />, title: "Login" },
-  { id: "L5", path: "/register", icon: <FaUserPlus />, title: "Register" },
-  { id: "L6", path: "/404", icon: <GiHazardSign />, title: "Not Found" },
-];
+  { id: "L1", path: "/user", icon: <FaUserFriends />, title: "Tapestry" }
+  ];
 
 const SideDrawer = (props) => {
   const drawerContent = (
@@ -123,7 +113,7 @@ const SideDrawer = (props) => {
       {/* Logo */}
       <Toolbar>
         <LogoStyle variant="h6" component="h2">
-          MUI Dash
+          API Developer Portal
         </LogoStyle>
       </Toolbar>
 
@@ -132,7 +122,7 @@ const SideDrawer = (props) => {
         <Avatar src={userAvatar} alt="User Image" />
 
         <Typography variant="subtitle1" component="h3">
-          Jaydon Frankie
+          Will Hayes
         </Typography>
       </UserCardStyle>
 
@@ -150,25 +140,6 @@ const SideDrawer = (props) => {
       </ListStyle>
 
       {/* get more card */}
-      <GetMoreStyle>
-        <img src={getMoreAvatar} alt="avatar" />
-
-        <Typography variant="h6" component="h4">
-          Get more?
-        </Typography>
-
-        <Typography variant="body2" component="h5">
-          From only $69
-        </Typography>
-
-        <a
-          href="https://material-ui.com/store/items/minimal-dashboard/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Upgrade To Pro
-        </a>
-      </GetMoreStyle>
     </>
   );
 

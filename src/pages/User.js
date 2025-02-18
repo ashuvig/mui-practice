@@ -25,7 +25,7 @@ const User = () => {
   return (
     <>
       <Helmet>
-        <title>Users | MUI Dash</title>
+        <title>Open API | Spec Listing</title>
       </Helmet>
 
       <Container maxWidth="lg" disableGutters>

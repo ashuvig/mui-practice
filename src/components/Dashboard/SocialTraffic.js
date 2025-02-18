@@ -22,12 +22,12 @@ const BoxContainerStyle = styled(Box)(({ theme }) => ({
 // items list
 const list = [
   {
-    title: "Facebook",
+    title: "Tapestry",
     amount: "47.10k",
     icon: <RiFacebookFill />,
   },
   {
-    title: "Google",
+    title: "RMI",
     amount: "65.60k",
     icon: <RiGoogleFill />,
   },

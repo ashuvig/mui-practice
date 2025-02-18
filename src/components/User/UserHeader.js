@@ -31,10 +31,10 @@ const BoxStyle = styled(Box)(({ theme }) => ({
 const UserHeader = () => {
   return (
     <BoxStyle>
-      <Typography variant="h3">User</Typography>
+      <Typography variant="h3">Open API Spec</Typography>
 
       <Button variant="contained" disableElevation startIcon={<BiPlus />}>
-        New User
+        New Spec
       </Button>
     </BoxStyle>
   );
